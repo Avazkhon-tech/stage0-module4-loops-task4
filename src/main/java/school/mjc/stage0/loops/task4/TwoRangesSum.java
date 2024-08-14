@@ -4,7 +4,8 @@ public class TwoRangesSum {
     public void printSumOfTwoRanges(int numberToSkip, int lastInRow) {
 
         if (numberToSkip > lastInRow) {
-            System.out.println("number to skip is bugger then the last");
+            System.out.println("number to skip is bi" +
+                    "gger then the last");
             return;
         }
 

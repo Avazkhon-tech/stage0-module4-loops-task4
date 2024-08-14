@@ -11,7 +11,8 @@ public class NumberToBreakOn {
             return;
         }
 
-        for (int i = 1; i <= toBreakWith; i++) {
+        numberToGoUntil = toBreakWith;
+        for (int i = 1; i <= numberToGoUntil; i++) {
             System.out.println(i);
         }
 

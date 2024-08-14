@@ -42,6 +42,7 @@ class NumberToBreakOnTest extends BaseIOTest {
                     || line.contains("int i = 1; i <= numberToGoUntil; i++"))
                 .collect(Collectors.toList());
 
+
         assertEquals(2, result.size());
     }
 }
